@@ -65,7 +65,7 @@ public class Calc extends Application {
         equals.setPrefSize(500, 100);
         Group group = new Group(textFieldMaker(1), Multiply, minus, plus, divide, equals);
 
-        Scene scene = new Scene(group, Color.RED);
+        Scene scene = new Scene(group, Color.DARKGRAY);
         stage.setScene(scene);
         stage.setTitle("task 11_12");
         stage.setWidth(500);

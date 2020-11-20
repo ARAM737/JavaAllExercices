@@ -25,7 +25,7 @@ public class SampleHelloWorld  extends Application {
 
         Group group = new Group(text);
 
-        Scene scene = new Scene(group, Color.RED);
+        Scene scene = new Scene(group, Color.GRAY);
         stage.setScene(scene);
         stage.setTitle("task 11_12");
         stage.setWidth(1600);
