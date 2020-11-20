@@ -1,4 +1,10 @@
 package ru.mirea.exercies9and10;
 
-public class EmployeePosition {
+public interface EmployeePosition  {
+
+    public String getJobTitle();
+
+    public double calcSalary(double baseSalary);
+
 }
+
